@@ -1,0 +1,15 @@
+//Class Bootstrap
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/variables-dark";
+
+//Colors
+$custom-colors: (
+    'btn-color-blue': #1d3557,
+    'title-color': #142a4d,
+    'subtitle-color': #3c80aa,
+    'bootstrap-color': #533b78
+);
+
+//Merge the Colors
+$theme-colors: map-merge($theme-colors, $custom-colors);
